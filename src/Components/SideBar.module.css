@@ -1,0 +1,43 @@
+.SideBar{
+    width: 200px;
+    height: fit-content;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: #fff;
+    border: 2px dashed #e2e2e2;
+    border-radius: 20px;
+}
+
+.SideBar div{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #fe5d42;
+
+}
+
+.SideBar p{
+    margin-left: 10px;
+    color: #fe5d42;
+
+
+}
+
+.SideBar li{
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.SideBar li:hover{
+    color: #fe5d42;
+}
+
+.Selected{
+    background-color: #f7753d49;
+    color: #fe5d42;
+    border-radius: 10px;
+}

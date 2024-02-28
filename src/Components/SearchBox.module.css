@@ -1,0 +1,23 @@
+.Search{
+margin: 0px 10px 50px;
+}
+
+.Search  input{
+    border: 2px dashed #fe5d42;
+    padding: 10px;
+    font-size: .9rem;
+    width: 250px;
+    color: #fe5d42;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.Search button{
+    background-color: #fe5d42;
+    font-size: 1rem;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

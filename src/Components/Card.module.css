@@ -1,0 +1,76 @@
+.Card{
+    width: 270px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-color: #fff;
+    border: 2px dashed #e2e2e2;
+    border-radius: 20px;
+}
+
+.Card img{
+    width: 230px;
+    height: 230px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.Card h3{
+    color: #fe5d42;
+    font-size: 1.1rem;
+}
+
+.Card p{
+    color: #666;
+    font-weight: 600;
+    font-size: .9rem;
+    margin: 10px 0px 30px;
+}
+.Actions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Actions a{
+    color: #fe5d42;
+    font-size: 1.5rem;
+    height: 25px;
+    cursor: pointer;
+}
+.Actions button{
+    display: flex;
+    align-items: center;
+}
+
+.Actions div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.Actions div span{
+width: 20px;
+align-items: center;
+margin: 0px 10px;
+}
+
+.Actions div button{
+    background-color: #fe5d42;
+    color: #fff;
+    border: none;
+    height: 32px;
+    width: 32px;
+    font-size: 1.7rem;
+    padding: 2px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

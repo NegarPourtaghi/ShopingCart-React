@@ -1,0 +1,11 @@
+.Container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}

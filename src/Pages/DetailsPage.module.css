@@ -1,0 +1,62 @@
+.Container{
+    display: flex;
+    align-items: flex-start;
+    min-height: 1000px;
+    width:100% ;
+}
+.Container img{
+    width: 300px;
+    padding: 15px 20px;
+    background-color: #fff;
+    border: 2px dashed #fe5d42;
+    border-radius: 50px;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+.Information{
+    width: 100%;
+    border: 2px dashed #e2e2e2;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.Information h3{
+    margin-bottom: 40px;
+    color: #fe5d42;
+    font-size: 1.5rem;
+}
+
+.Description{
+    color: grey;
+    width:500px;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+
+}
+
+.Category{
+    margin-bottom: 40px;
+}
+
+.Category svg , .Information span svg{
+color: #fe5d42;
+margin-right: 10px;
+}
+
+.Information div{
+    display: flex;
+    justify-content: space-between;
+}
+.Information a{
+    display: flex;
+    align-items: center;
+    background-color: #fe5d42;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 12px;
+}
+.Information a svg{
+    margin-right: 10px;
+}

@@ -1,0 +1,50 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 80px;
+    background-color: #fe5d42;
+    border-radius: 10px;
+    align-items: center;
+    color: #fff;
+
+}
+
+.Header a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.Header div{
+    position: relative;
+    font-size: 1.4rem;
+    background-color: #fff;
+    text-align: center;
+    color: #fe5d42;
+    height: 35px;
+    width: 35px;
+    border-radius: 9px;
+    padding: 2px;
+}
+.Header span{
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+.Footer{
+    text-align: center;
+    background-color: #fe5d42 ;
+    border-radius: 10px;
+    margin-top: 80px;
+    padding: 20px;
+    color: #fff;
+}
+
